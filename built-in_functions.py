@@ -6,7 +6,18 @@ print(min([1, 2, 3, 4, 5]))
 print(max([1, 2, 3, 4, 5]))
 print(type([1, 2, 3, 4, 5]))
 print(len('String'))
-input('Input something and press Enter: ')
+
+# input('Input something and press Enter: ')
+
+string = ('Python')
+print(dir(string))
+print(string, string.upper())
+
+print(10, 'python', True)
+print(print)
+
+print(dir())
+print(dir(__builtins__))
 
 # abs()			    # Returns the absolute value of a number
 # all()			    # Returns True if all items in an iterable object are true
