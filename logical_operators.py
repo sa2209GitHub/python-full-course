@@ -31,3 +31,38 @@ print(0 or 1)                   # 1
 
 print('\nand or:')
 print((0 and 2) or (2 and 1))   # 1
+
+# Examples:
+
+my_list = [1, 2]
+other_list = ['a', 'b']
+my_dict = {'A': 1}
+
+print('\nexamples:')
+print(len(my_list) < 0 or other_list[0])    # a
+print(len(my_list) > 0 or other_list)       # True
+print(my_list or my_dict)                   # [1, 2]
+
+print(my_list and my_dict)                  # {}
+
+
+my_list and print("List is not empty")
+my_dict and print('Dictionary is not empty')
+
+print("List is not empty" if my_list else "List is empty")
+print("Dictionary is not empty" if my_dict else "Dictionary is empty")
+
+# Task
+dict_one = {
+    'key_one': 1,
+    'key_two': 2,
+    'key_three': 'XYZ',
+}
+
+dict_two = {
+    'key_one': 1,
+    'key_two': 2,
+    'key_three': 'XYZ',
+}
+
+dict_one == dict_two and print('Dictionaries are equal')

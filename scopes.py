@@ -18,4 +18,4 @@ my_fn()
 
 print(a)
 print(G)
-print(b)
+# print(b)
