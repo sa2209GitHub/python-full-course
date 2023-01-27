@@ -17,3 +17,4 @@
 15. Scopes [[ code ]](./scopes.py)
 16. Operators [[ code ]](./operators.py)
 17. Falsy Values [[ code ]](./falsy_values.py)
+18. Logical Operators [[ code ]](./logical_operators.py)
