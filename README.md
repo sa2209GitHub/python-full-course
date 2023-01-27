@@ -14,3 +14,6 @@
 12. Functions [[ code ]](./functions.py)
 13. Callback Functions [[ code ]](./callback_functions.py)
 14. Docstring [[ code ]](./docstring.py)
+15. Scopes [[ code ]](./scopes.py)
+16. Operators [[ code ]](./operators.py)
+17. Falsy Values [[ code ]](./falsy_values.py)
