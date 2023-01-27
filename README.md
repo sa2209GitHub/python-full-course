@@ -9,3 +9,8 @@
 7.  Tuples [[ code ]](./tuples.py)
 8.  Sets [[ code ]](./sets.py)
 9.  Ranges [[ code ]](./ranges.py)
+10. Zip (Built-in Function) [[ code ]](./zip.py)
+11. Object Behavior [[ code ]](./object_behavior.py)
+12. Functions [[ code ]](./functions.py)
+13. Callback Functions [[ code ]](./callback_functions.py)
+14. Docstring [[ code ]](./docstring.py)
