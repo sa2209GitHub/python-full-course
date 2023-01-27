@@ -27,3 +27,17 @@ goods_prices_dict = dict(goods_prices_list)
 
 print(goods_prices_list)
 print(goods_prices_dict)
+
+# Improved Task
+print("\nImproved task with function:")
+
+
+def zip_two_seqences(first, second, DICT=True):
+    first_clone = first.copy()
+    second_clone = second.copy()
+
+    return dict(zip(first_clone, second_clone)) if DICT else list(zip(first_clone, second_clone))
+
+
+print(zip_two_seqences(first=['E', 'F', 'G'], second=[120, 232, 328]))
+print(zip_two_seqences(first=['E', 'F', 'G'], second=[12, 23, 32], DICT=False))
