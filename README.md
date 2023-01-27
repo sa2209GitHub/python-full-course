@@ -19,3 +19,4 @@
 17. Falsy Values [[ code ]](./falsy_values.py)
 18. Logical Operators [[ code ]](./logical_operators.py)
 19. Collections [[ code ]](./collections.py)
+20. Objects [[ code ]](./objects.pyg)
